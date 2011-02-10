@@ -1,0 +1,5 @@
+require 'i18n_plus/country'
+require 'i18n_plus/state'
+require 'i18n_plus/language'
+require 'i18n_plus/locale'
+require 'i18n_plus/currency'
