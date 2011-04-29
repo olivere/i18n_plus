@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/i18n_plus', __FILE__)
+require File.expand_path('../lib/i18n_plus/version', __FILE__)
 
 extra_rdoc_files = ['CHANGELOG.md', 'LICENSE', 'README.md']
 
