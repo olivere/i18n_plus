@@ -1,4 +1,3 @@
-require 'i18n_plus/version'
 require 'i18n_plus/country'
 require 'i18n_plus/state'
 require 'i18n_plus/language'
