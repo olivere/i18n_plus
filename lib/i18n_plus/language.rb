@@ -1,8 +1,8 @@
 require 'pathname'
 
 module I18nPlus
-  data_path = Pathname.new(File.dirname(__FILE__) + '/../../data')
-  LANGUAGES = YAML.load_file(data_path.join("languages.yml"))
+  data_path = ::Pathname.new(File.dirname(__FILE__) + '/../../data')
+  LANGUAGES = ::YAML.load(File.open(data_path.join("languages.yml")))
 
   def self.languages(*args)
     options = args.extract_options!

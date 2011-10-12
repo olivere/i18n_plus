@@ -2,7 +2,7 @@ require 'pathname'
 
 module I18nPlus
   data_path = ::Pathname.new(File.dirname(__FILE__) + '/../../data')
-  CURRENCIES = ::YAML.load_file(data_path.join("currencies.yml"))
+  CURRENCIES = ::YAML.load(File.open(data_path.join("currencies.yml")))
 
   def self.currencies(*args)
     options = args.extract_options!

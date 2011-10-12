@@ -2,7 +2,7 @@ require 'pathname'
 
 module I18nPlus
   data_path = ::Pathname.new(File.dirname(__FILE__) + '/../../data')
-  STATES = ::YAML.load_file(data_path.join("states.yml"))
+  STATES = ::YAML.load(File.open(data_path.join("states.yml")))
 
   def self.states(country_code, *args)
     options = args.extract_options!

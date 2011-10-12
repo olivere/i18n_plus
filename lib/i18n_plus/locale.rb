@@ -1,8 +1,8 @@
 require 'pathname'
 
 module I18nPlus
-  data_path = Pathname.new(File.dirname(__FILE__) + '/../../data')
-  LOCALES = YAML.load_file(data_path.join("locales.yml"))
+  data_path = ::Pathname.new(File.dirname(__FILE__) + '/../../data')
+  LOCALES = ::YAML.load(File.open(data_path.join("locales.yml")))
 
   def self.locales(*args)
     options = args.extract_options!

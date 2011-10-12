@@ -1,3 +1,8 @@
+# 0.1.2, release 2011-10-11
+
+* Fixed YAML loading on Ruby 1.9.x
+* Published on RubyGems
+
 # 0.1.1, release 2011-04-30
 
 * Removed version from sources and put it into gemspec only
