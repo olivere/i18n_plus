@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.summary = s.description
   s.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
-  s.files = `git ls-files -- {bin,lib,spec}/*`.split("\n") + extra_rdoc_files
+  s.files = `git ls-files -- {bin,lib,spec,data}/*`.split("\n") + extra_rdoc_files
   s.test_files = `git ls-files -- {spec}/*`.split("\n")
 
   s.add_development_dependency("bundler", "~> 1.0")
