@@ -23,12 +23,12 @@ module ActionView
       end
 
       def country_options_for_select(selected = nil, *priority_country_codes)
-        html = ""
+        html = "".html_safe
         unless priority_country_codes.empty?
           priority_countries = priority_country_codes.map { |code| [I18nPlus.country_name(code), code] }
           unless priority_countries.empty?
             html += options_for_select(priority_countries, selected)
-            html += "<option value=\"\" disabled=\"disabled\">----------</option>"
+            html += "<option value=\"\" disabled=\"disabled\">----------</option>".html_safe
           end
         end
         all_countries = I18nPlus.countries.map { |code,name| [name, code] }.sort

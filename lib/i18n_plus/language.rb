@@ -23,12 +23,12 @@ module ActionView
       end
 
       def language_options_for_select(selected = nil, *priority_language_codes)
-        html = ""
+        html = "".html_safe
         unless priority_language_codes.empty?
           priority_languages = priority_language_codes.map { |code| [I18nPlus.language_name(code), code] }
           unless priority_languages.empty?
             html += options_for_select(priority_languages, selected)
-            html += "<option value=\"\" disabled=\"disabled\">----------</option>"
+            html += "<option value=\"\" disabled=\"disabled\">----------</option>".html_safe
           end
         end
         all_languages = I18nPlus.languages.map { |code,name| [name, code] }.sort

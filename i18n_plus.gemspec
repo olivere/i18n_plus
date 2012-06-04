@@ -19,8 +19,12 @@ Gem::Specification.new do |s|
   s.files = `git ls-files -- {bin,lib,spec,data}/*`.split("\n") + extra_rdoc_files
   s.test_files = `git ls-files -- {spec}/*`.split("\n")
 
+  s.add_dependency 'rack', ['>= 1.1.0', '< 2']
+  s.add_dependency 'activesupport', '>= 3.0.0'
+  s.add_dependency 'actionpack', '>= 3.0.0'
   s.add_development_dependency("bundler", "~> 1.0")
   s.add_development_dependency("rdoc", "~> 2.5")
   s.add_development_dependency("rake", ">= 0.9")
+  s.add_development_dependency("mocha", ">= 0.11.4")
 end
 

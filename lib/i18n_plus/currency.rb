@@ -23,12 +23,12 @@ module ActionView
       end
 
       def currency_options_for_select(selected = nil, *priority_currency_codes)
-        html = ""
+        html = "".html_safe
         unless priority_currency_codes.empty?
           priority_currencies = priority_currency_codes.map { |code| [I18nPlus.currency_name(code), code] }
           unless priority_currencies.empty?
             html += options_for_select(priority_currencies, selected)
-            html += "<option value=\"\" disabled=\"disabled\">----------</option>"
+            html += "<option value=\"\" disabled=\"disabled\">----------</option>".html_safe
           end
         end
         all_currencies = I18nPlus.currencies.map { |code,name| [name, code] }.sort

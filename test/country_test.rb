@@ -68,4 +68,13 @@ class CountryTest < ActiveSupport::TestCase
     match = /<select id="account_country" name="account\[country\]"><option value="DE" selected="selected">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
     assert_match match, country_select(@account, :country, 'DE').gsub(/\n/, '')
   end
+
+  test "should return norway" do
+    # NO is a special case in YAML and yields false
+    I18n.locale = :de
+    assert_equal "Norwegen", I18nPlus.country_name('NO')
+    I18n.locale = :en
+    assert_equal "Norway", I18nPlus.country_name('NO')
+  end
+
 end
