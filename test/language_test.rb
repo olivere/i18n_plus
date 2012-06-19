@@ -41,4 +41,13 @@ class LanguageTest < ActiveSupport::TestCase
     match = /<select id="account_language" name="account\[language\]"><option value="DE" selected="selected">German<\/option><option value="" disabled="disabled">----------<\/option>/
     assert_match match, language_select(@account, :language, 'DE').gsub(/\n/, '')
   end
+
+  test "should return Norwegian" do
+    # NO is a special case in YAML and yields false
+    I18n.locale = :de
+    assert_equal "Norwegisch", I18nPlus.language_name('NO')
+    I18n.locale = :en
+    assert_equal "Norwegian", I18nPlus.language_name('NO')
+  end
+
 end

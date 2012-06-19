@@ -1,5 +1,5 @@
 de:
-  AT:
+  "AT":
     'AT-1': "Burgenland"
     'AT-2': "Kärnten"
     'AT-3': "Niederösterreich"
@@ -9,65 +9,65 @@ de:
     'AT-7': "Tirol"
     'AT-8': "Vorarlberg"
     'AT-9': "Wien"
-  CA:
-    AB: "Alberta"
-    BC: "British Columbia"
-    MB: "Manitoba"
-    NB: "New Brunswick"
-    NL: "Newfoundland"
-    NS: "Nova Scotia"
-    NU: "Nunavut"
-    ON: "Ontario"
-    PE: "Prince Edward Island"
-    QC: "Quebec"
-    SK: "Saskatchewan"
-    NT: "Northwest Territories"
-    YT: "Yukon Territory"
-  CH:
-    AG: "Aargau"
-    AR: "Appenzell Ausserrhoden"
-    BL: "Basel-Landschaft"
-    BS: "Basel-Stadt"
-    BE: "Bern"
-    FR: "Freiburg"
-    GE: "Genf"
-    GL: "Glarus"
-    GR: "Graubünden"
-    AI: "Appenzell Innerrhoden"
-    LU: "Luzern"
-    NE: "Neuchatel"
-    NW: "Nidwalden"
-    OW: "Obwalden"
-    SG: "Sankt Gallen"
-    SH: "Schaffhausen"
-    SZ: "Schwyz"
-    SO: "Solothurn"
-    TG: "Thurgau"
-    TI: "Tessin"
-    UR: "Uri"
-    VS: "Wallis"
-    VD: "Waadt"
-    ZG: "Zug"
-    ZH: "Zurich"
-    JU: "Jura"
-  DE:
-    BW: Baden-Württemberg
-    BY: Bayern
-    BE: Berlin
-    BR: Brandenburg
-    HB: Bremen
-    HH: Hamburg
-    HE: Hessen
-    MV: Mecklenburg-Vorpommern
-    NI: Niedersachsen
-    NW: Nordrhein-Westfalen
-    RP: Rheinland-Pfalz
-    SL: Saarland
-    SN: Sachsen
-    ST: Sachsen-Anhalt
-    SH: Schleswig-Holstein
-    TH: Thüringen
-  FR:
+  "CA":
+    "AB": "Alberta"
+    "BC": "British Columbia"
+    "MB": "Manitoba"
+    "NB": "New Brunswick"
+    "NL": "Newfoundland"
+    "NS": "Nova Scotia"
+    "NU": "Nunavut"
+    "ON": "Ontario"
+    "PE": "Prince Edward Island"
+    "QC": "Quebec"
+    "SK": "Saskatchewan"
+    "NT": "Northwest Territories"
+    "YT": "Yukon Territory"
+  "CH":
+    "AG": "Aargau"
+    "AR": "Appenzell Ausserrhoden"
+    "BL": "Basel-Landschaft"
+    "BS": "Basel-Stadt"
+    "BE": "Bern"
+    "FR": "Freiburg"
+    "GE": "Genf"
+    "GL": "Glarus"
+    "GR": "Graubünden"
+    "AI": "Appenzell Innerrhoden"
+    "LU": "Luzern"
+    "NE": "Neuchatel"
+    "NW": "Nidwalden"
+    "OW": "Obwalden"
+    "SG": "Sankt Gallen"
+    "SH": "Schaffhausen"
+    "SZ": "Schwyz"
+    "SO": "Solothurn"
+    "TG": "Thurgau"
+    "TI": "Tessin"
+    "UR": "Uri"
+    "VS": "Wallis"
+    "VD": "Waadt"
+    "ZG": "Zug"
+    "ZH": "Zurich"
+    "JU": "Jura"
+  "DE":
+    "BW": Baden-Württemberg
+    "BY": Bayern
+    "BE": Berlin
+    "BR": Brandenburg
+    "HB": Bremen
+    "HH": Hamburg
+    "HE": Hessen
+    "MV": Mecklenburg-Vorpommern
+    "NI": Niedersachsen
+    "NW": Nordrhein-Westfalen
+    "RP": Rheinland-Pfalz
+    "SL": Saarland
+    "SN": Sachsen
+    "ST": Sachsen-Anhalt
+    "SH": Schleswig-Holstein
+    "TH": Thüringen
+  "FR":
     'FR-01': "Ain"
     'FR-02': "Aisne"
     'FR-03': "Allier"
@@ -164,312 +164,312 @@ de:
     'FR-88': "Vosges"
     'FR-89': "Yonne"
     'FR-78': "Yvelines"
-  GB:
-    BDG: "Barking and Dagenham"
-    BNE: "Barnet"
-    BNS: "Barnsley"
-    BAS: "Bath and North East Somerset"
-    BDF: "Bedfordshire"
-    BEX: "Bexley"
-    BIR: "Birmingham"
-    BBD: "Blackburn with Darwen"
-    BPL: "Blackpool"
-    BOL: "Bolton"
-    BMH: "Bournemouth"
-    BRC: "Bracknell Forest"
-    BRD: "Bradford"
-    BEN: "Brent"
-    BNH: "Brighton and Hove"
-    BST: "Bristol, City of"
-    BRY: "Bromley"
-    BKM: "Buckinghamshire"
-    BUR: "Bury"
-    CLD: "Calderdale"
-    CAM: "Cambridgeshire"
-    CMD: "Camden"
-    CHS: "Cheshire"
-    CON: "Cornwall"
-    COV: "Coventry"
-    CRY: "Croydon"
-    CMA: "Cumbria"
-    DAL: "Darlington"
-    DER: "Derby"
-    DBY: "Derbyshire"
-    DEV: "Devon"
-    DNC: "Doncaster"
-    DOR: "Dorset"
-    DUD: "Dudley"
-    DUR: "Durham"
-    EAL: "Ealing"
-    ERY: "East Riding of Yorkshire"
-    ESX: "East Sussex"
-    ENF: "Enfield"
-    ESS: "Essex"
-    GAT: "Gateshead"
-    GLS: "Gloucestershire"
-    GRE: "Greenwich"
-    HCK: "Hackney"
-    HAL: "Halton"
-    HMF: "Hammersmith and Fulham"
-    HAM: "Hampshire"
-    HRY: "Haringey"
-    HRW: "Harrow"
-    HPL: "Hartlepool"
-    HAV: "Havering"
-    HEF: "Herefordshire"
-    HRT: "Hertfordshire"
-    HIL: "Hillingdon"
-    HNS: "Hounslow"
-    IOW: "Isle of Wight"
-    IOS: "Isle of Scilly"
-    ISL: "Islington"
-    KEC: "Kensington and Chelsea"
-    KEN: "Kent"
-    KHL: "Kingston upon Hull, City of"
-    KTT: "Kingston upon Thames"
-    KIR: "Kirklees"
-    KWL: "Knowsley"
-    LBH: "Lambeth"
-    LAN: "Lancashire"
-    LDS: "Leeds"
-    LCE: "Leicester"
-    LEC: "Leicestershire"
-    LEW: "Lewisham"
-    LIN: "Lincolnshire"
-    LIV: "Liverpool"
-    LND: "London, City of"
-    LUT: "Luton"
-    MAN: "Manchester"
-    MDW: "Medway"
-    MRT: "Merton"
-    MDB: "Middlesbrough"
-    MIK: "Milton Keynes"
-    NET: "Newcastle upon Tyne"
-    NWM: "Newham"
-    NFK: "Norfolk"
-    NTH: "Northamptonshire"
-    NEL: "North East Lincolnshire"
-    NLN: "North Lincolnshire"
-    NSM: "North Somerset"
-    NTY: "North Tyneside"
-    NBL: "Northumberland"
-    NYK: "North Yorkshire"
-    NGM: "Nottingham"
-    NTT: "Nottinghamshire"
-    OLD: "Oldham"
-    OXF: "Oxfordshire"
-    PTE: "Peterborough"
-    PLY: "Plymouth"
-    POL: "Poole"
-    POR: "Portsmouth"
-    RDG: "Reading"
-    RDB: "Redbridge"
-    RCC: "Redcar and Cleveland"
-    RIC: "Richmond upon Thames"
-    RCH: "Rochdale"
-    ROT: "Rotherham"
-    RUT: "Rutland"
-    SHN: "St. Helens"
-    SLF: "Salford"
-    SHR: "Shropshire"
-    SAW: "Sandwell"
-    SFT: "Sefton"
-    SHF: "Sheffield"
-    SLG: "Slough"
-    SOL: "Solihull"
-    SOM: "Somerset"
-    STH: "Southampton"
-    SOS: "Southend-on-Sea"
-    SGC: "South Gloucestershire"
-    STY: "South Tyneside"
-    SWK: "Southwark"
-    STS: "Staffordshire"
-    SKP: "Stockport"
-    STT: "Stockton-on-Tees"
-    STE: "Stoke-on-Trent"
-    SFK: "Suffolk"
-    SND: "Sunderland"
-    SRY: "Surrey"
-    STN: "Sutton"
-    SWD: "Swindon"
-    TAM: "Tameside"
-    TFW: "Telford and Wrekin"
-    THR: "Thurrock"
-    TOB: "Torbay"
-    TWH: "Tower Hamlets"
-    TRF: "Trafford"
-    WKF: "Wakefield"
-    WLL: "Walsall"
-    WFT: "Waltham Forest"
-    WND: "Wandsworth"
-    WRT: "Warrington"
-    WAR: "Warwickshire"
-    WBK: "West Berkshire"
-    WSM: "Westminster"
-    WSX: "West Sussex"
-    WGN: "Wigan"
-    WIL: "Wiltshire"
-    WNM: "Windsor and Maidenhead"
-    WRL: "Wirral"
-    WOK: "Wokingham"
-    WLV: "Wolverhampton"
-    WOR: "Worcestershire"
-    YOR: "York"
-    ANT: "Antrim"
-    ARD: "Ards"
-    ARM: "Armagh"
-    BLA: "Ballymena"
-    BLY: "Ballymoney"
-    BNB: "Banbridge"
-    BFS: "Belfast"
-    CKF: "Carrickfergus"
-    CSR: "Castlereagh"
-    CLR: "Coleraine"
-    CKT: "Cookstown"
-    CGV: "Craigavon"
-    DRY: "Derry"
-    DOW: "Down"
-    DGN: "Dungannon and South Tyrone"
-    FER: "Fermanagh"
-    LRN: "Larne"
-    LMV: "Limavady"
-    LSB: "Lisburn"
-    MFT: "Magherafelt"
-    MYL: "Moyle"
-    NYM: "Newry and Mourne"
-    NTA: "Newtownabbey"
-    NDN: "North Down"
-    OMH: "Omagh"
-    STB: "Strabane"
-    ABE: "Aberdeen City"
-    ABD: "Aberdeenshire"
-    ANS: "Angus"
-    AGB: "Argyll and Bute"
-    SCB: "Scottish Borders, The"
-    CLK: "Clackmannanshire"
-    DGY: "Dumfries and Galloway"
-    DND: "Dundee"
-    EAY: "East Ayrshire"
-    EDU: "East Dunbartonshire"
-    ELN: "East Lothian"
-    ERW: "East Renfrewshire"
-    EDH: "Edinburgh"
-    ELS: "Eilean Siar"
-    FAL: "Falkirk"
-    FIF: "Fife"
-    GLG: "Glasgow"
-    HLD: "Highland"
-    IVC: "Inverclyde"
-    MLN: "Midlothian"
-    MRY: "Moray"
-    NAY: "North Ayrshire"
-    NLK: "North Lanarkshire"
-    ORK: "Orkney Islands"
-    PKN: "Perth and Kinross"
-    RFW: "Renfrewshire"
-    ZET: "Shetland Islands"
-    SAY: "South Ayrshire"
-    SLK: "South Lanarkshire"
-    STG: "Stirling"
-    WDU: "West Dunbartonshire"
-    WLN: "West Lothian"
-    AGY: "Isle of Anglesey"
-    BGW: "Blaenau Gwent"
-    BGE: "Bridgend"
-    CAY: "Caerphilly"
-    CRF: "Cardiff"
-    CGN: "Ceredigion"
-    CMN: "Carmarthenshire"
-    CWY: "Conwy"
-    DEN: "Denbighshire"
-    FLN: "Flintshire"
-    GWN: "Gwynedd"
-    MTY: "Merthyr Tydfil"
-    MON: "Monmouthshire"
-    NTL: "Neath Port Talbot"
-    NWP: "Newport"
-    PEM: "Pembrokeshire"
-    POW: "Powys"
-    RCT: "Rhondda Cynon Taff"
-    SWA: "Swansea"
-    TOF: "Torfaen"
-    VGL: "Vale of Glamorgan"
-    WRX: "Wrexham"
-  NL:
-    DR: Drenthe
-    FL: Flevoland
-    FR: Friesland
-    GE: Gelderland
-    GR: Groningen
-    LI: Limburg
-    NB: Nordbrabant
-    NH: Nordholland
-    OV: Overijssel
-    ZH: Südholland
-    UT: Utrecht
-    ZE: Zeeland
-  US:
-    AA: Armed Forces Americas
-    AE: "Armed Forces Europe, Middle East, & Canada"
-    AK: Alaska
-    AL: Alabama
-    AZ: Arizona
-    AR: Arkansas
-    CA: Kalifornien
-    CO: Colorado
-    CT: Conneticut
-    DE: Delaware
-    DC: District of Columbia
-    FL: Florida
-    FM: "Federated States of Micronesia"
-    GA: Georgia
-    GU: "Guam"
-    HI: Hawaii
-    ID: Idaho
-    IL: Illinois
-    IN: Indiana
-    IA: Iowa
-    KS: Kansas
-    KY: Kentucky
-    LA: Louisiana
-    ME: Maine
-    MH: "Marshall Islands"
-    MD: Maryland
-    MA: Massachusetts
-    MI: Michigan
-    MN: Minnesota
-    MS: Mississippi
-    MO: Missouri
-    MP: "Northern Mariana Islands"
-    MT: Montana
-    NE: Nebraska
-    NV: Nevada
-    NH: New Hampshire
-    NJ: New Jersey
-    NM: New Mexico
-    NY: New York
-    NC: North Carolina
-    ND: North Dakota
-    OH: Ohio
-    OK: Oklahoma
-    OR: Oregon
-    PA: Pennsylvania
-    PR: "Puerto Rico"
-    PW: "Palau"
-    RI: Rhode Island
-    SC: South Carolina
-    SD: South Dakota
-    TN: Tennessee
-    TX: Texas
-    UT: Utah
-    VT: Vermont
-    VA: Virginia
-    WA: Washington
-    WV: West Virginia
-    WI: Wisconsin
-    WY: Wyoming
+  "GB":
+    "BDG": "Barking and Dagenham"
+    "BNE": "Barnet"
+    "BNS": "Barnsley"
+    "BAS": "Bath and North East Somerset"
+    "BDF": "Bedfordshire"
+    "BEX": "Bexley"
+    "BIR": "Birmingham"
+    "BBD": "Blackburn with Darwen"
+    "BPL": "Blackpool"
+    "BOL": "Bolton"
+    "BMH": "Bournemouth"
+    "BRC": "Bracknell Forest"
+    "BRD": "Bradford"
+    "BEN": "Brent"
+    "BNH": "Brighton and Hove"
+    "BST": "Bristol, City of"
+    "BRY": "Bromley"
+    "BKM": "Buckinghamshire"
+    "BUR": "Bury"
+    "CLD": "Calderdale"
+    "CAM": "Cambridgeshire"
+    "CMD": "Camden"
+    "CHS": "Cheshire"
+    "CON": "Cornwall"
+    "COV": "Coventry"
+    "CRY": "Croydon"
+    "CMA": "Cumbria"
+    "DAL": "Darlington"
+    "DER": "Derby"
+    "DBY": "Derbyshire"
+    "DEV": "Devon"
+    "DNC": "Doncaster"
+    "DOR": "Dorset"
+    "DUD": "Dudley"
+    "DUR": "Durham"
+    "EAL": "Ealing"
+    "ERY": "East Riding of Yorkshire"
+    "ESX": "East Sussex"
+    "ENF": "Enfield"
+    "ESS": "Essex"
+    "GAT": "Gateshead"
+    "GLS": "Gloucestershire"
+    "GRE": "Greenwich"
+    "HCK": "Hackney"
+    "HAL": "Halton"
+    "HMF": "Hammersmith and Fulham"
+    "HAM": "Hampshire"
+    "HRY": "Haringey"
+    "HRW": "Harrow"
+    "HPL": "Hartlepool"
+    "HAV": "Havering"
+    "HEF": "Herefordshire"
+    "HRT": "Hertfordshire"
+    "HIL": "Hillingdon"
+    "HNS": "Hounslow"
+    "IOW": "Isle of Wight"
+    "IOS": "Isle of Scilly"
+    "ISL": "Islington"
+    "KEC": "Kensington and Chelsea"
+    "KEN": "Kent"
+    "KHL": "Kingston upon Hull, City of"
+    "KTT": "Kingston upon Thames"
+    "KIR": "Kirklees"
+    "KWL": "Knowsley"
+    "LBH": "Lambeth"
+    "LAN": "Lancashire"
+    "LDS": "Leeds"
+    "LCE": "Leicester"
+    "LEC": "Leicestershire"
+    "LEW": "Lewisham"
+    "LIN": "Lincolnshire"
+    "LIV": "Liverpool"
+    "LND": "London, City of"
+    "LUT": "Luton"
+    "MAN": "Manchester"
+    "MDW": "Medway"
+    "MRT": "Merton"
+    "MDB": "Middlesbrough"
+    "MIK": "Milton Keynes"
+    "NET": "Newcastle upon Tyne"
+    "NWM": "Newham"
+    "NFK": "Norfolk"
+    "NTH": "Northamptonshire"
+    "NEL": "North East Lincolnshire"
+    "NLN": "North Lincolnshire"
+    "NSM": "North Somerset"
+    "NTY": "North Tyneside"
+    "NBL": "Northumberland"
+    "NYK": "North Yorkshire"
+    "NGM": "Nottingham"
+    "NTT": "Nottinghamshire"
+    "OLD": "Oldham"
+    "OXF": "Oxfordshire"
+    "PTE": "Peterborough"
+    "PLY": "Plymouth"
+    "POL": "Poole"
+    "POR": "Portsmouth"
+    "RDG": "Reading"
+    "RDB": "Redbridge"
+    "RCC": "Redcar and Cleveland"
+    "RIC": "Richmond upon Thames"
+    "RCH": "Rochdale"
+    "ROT": "Rotherham"
+    "RUT": "Rutland"
+    "SHN": "St. Helens"
+    "SLF": "Salford"
+    "SHR": "Shropshire"
+    "SAW": "Sandwell"
+    "SFT": "Sefton"
+    "SHF": "Sheffield"
+    "SLG": "Slough"
+    "SOL": "Solihull"
+    "SOM": "Somerset"
+    "STH": "Southampton"
+    "SOS": "Southend-on-Sea"
+    "SGC": "South Gloucestershire"
+    "STY": "South Tyneside"
+    "SWK": "Southwark"
+    "STS": "Staffordshire"
+    "SKP": "Stockport"
+    "STT": "Stockton-on-Tees"
+    "STE": "Stoke-on-Trent"
+    "SFK": "Suffolk"
+    "SND": "Sunderland"
+    "SRY": "Surrey"
+    "STN": "Sutton"
+    "SWD": "Swindon"
+    "TAM": "Tameside"
+    "TFW": "Telford and Wrekin"
+    "THR": "Thurrock"
+    "TOB": "Torbay"
+    "TWH": "Tower Hamlets"
+    "TRF": "Trafford"
+    "WKF": "Wakefield"
+    "WLL": "Walsall"
+    "WFT": "Waltham Forest"
+    "WND": "Wandsworth"
+    "WRT": "Warrington"
+    "WAR": "Warwickshire"
+    "WBK": "West Berkshire"
+    "WSM": "Westminster"
+    "WSX": "West Sussex"
+    "WGN": "Wigan"
+    "WIL": "Wiltshire"
+    "WNM": "Windsor and Maidenhead"
+    "WRL": "Wirral"
+    "WOK": "Wokingham"
+    "WLV": "Wolverhampton"
+    "WOR": "Worcestershire"
+    "YOR": "York"
+    "ANT": "Antrim"
+    "ARD": "Ards"
+    "ARM": "Armagh"
+    "BLA": "Ballymena"
+    "BLY": "Ballymoney"
+    "BNB": "Banbridge"
+    "BFS": "Belfast"
+    "CKF": "Carrickfergus"
+    "CSR": "Castlereagh"
+    "CLR": "Coleraine"
+    "CKT": "Cookstown"
+    "CGV": "Craigavon"
+    "DRY": "Derry"
+    "DOW": "Down"
+    "DGN": "Dungannon and South Tyrone"
+    "FER": "Fermanagh"
+    "LRN": "Larne"
+    "LMV": "Limavady"
+    "LSB": "Lisburn"
+    "MFT": "Magherafelt"
+    "MYL": "Moyle"
+    "NYM": "Newry and Mourne"
+    "NTA": "Newtownabbey"
+    "NDN": "North Down"
+    "OMH": "Omagh"
+    "STB": "Strabane"
+    "ABE": "Aberdeen City"
+    "ABD": "Aberdeenshire"
+    "ANS": "Angus"
+    "AGB": "Argyll and Bute"
+    "SCB": "Scottish Borders, The"
+    "CLK": "Clackmannanshire"
+    "DGY": "Dumfries and Galloway"
+    "DND": "Dundee"
+    "EAY": "East Ayrshire"
+    "EDU": "East Dunbartonshire"
+    "ELN": "East Lothian"
+    "ERW": "East Renfrewshire"
+    "EDH": "Edinburgh"
+    "ELS": "Eilean Siar"
+    "FAL": "Falkirk"
+    "FIF": "Fife"
+    "GLG": "Glasgow"
+    "HLD": "Highland"
+    "IVC": "Inverclyde"
+    "MLN": "Midlothian"
+    "MRY": "Moray"
+    "NAY": "North Ayrshire"
+    "NLK": "North Lanarkshire"
+    "ORK": "Orkney Islands"
+    "PKN": "Perth and Kinross"
+    "RFW": "Renfrewshire"
+    "ZET": "Shetland Islands"
+    "SAY": "South Ayrshire"
+    "SLK": "South Lanarkshire"
+    "STG": "Stirling"
+    "WDU": "West Dunbartonshire"
+    "WLN": "West Lothian"
+    "AGY": "Isle of Anglesey"
+    "BGW": "Blaenau Gwent"
+    "BGE": "Bridgend"
+    "CAY": "Caerphilly"
+    "CRF": "Cardiff"
+    "CGN": "Ceredigion"
+    "CMN": "Carmarthenshire"
+    "CWY": "Conwy"
+    "DEN": "Denbighshire"
+    "FLN": "Flintshire"
+    "GWN": "Gwynedd"
+    "MTY": "Merthyr Tydfil"
+    "MON": "Monmouthshire"
+    "NTL": "Neath Port Talbot"
+    "NWP": "Newport"
+    "PEM": "Pembrokeshire"
+    "POW": "Powys"
+    "RCT": "Rhondda Cynon Taff"
+    "SWA": "Swansea"
+    "TOF": "Torfaen"
+    "VGL": "Vale of Glamorgan"
+    "WRX": "Wrexham"
+  "NL":
+    "DR": Drenthe
+    "FL": Flevoland
+    "FR": Friesland
+    "GE": Gelderland
+    "GR": Groningen
+    "LI": Limburg
+    "NB": Nordbrabant
+    "NH": Nordholland
+    "OV": Overijssel
+    "ZH": Südholland
+    "UT": Utrecht
+    "ZE": Zeeland
+  "US":
+    "AA": Armed Forces Americas
+    "AE": "Armed Forces Europe, Middle East, & Canada"
+    "AK": Alaska
+    "AL": Alabama
+    "AZ": Arizona
+    "AR": Arkansas
+    "CA": Kalifornien
+    "CO": Colorado
+    "CT": Conneticut
+    "DE": Delaware
+    "DC": District of Columbia
+    "FL": Florida
+    "FM": "Federated States of Micronesia"
+    "GA": Georgia
+    "GU": "Guam"
+    "HI": Hawaii
+    "ID": Idaho
+    "IL": Illinois
+    "IN": Indiana
+    "IA": Iowa
+    "KS": Kansas
+    "KY": Kentucky
+    "LA": Louisiana
+    "ME": Maine
+    "MH": "Marshall Islands"
+    "MD": Maryland
+    "MA": Massachusetts
+    "MI": Michigan
+    "MN": Minnesota
+    "MS": Mississippi
+    "MO": Missouri
+    "MP": "Northern Mariana Islands"
+    "MT": Montana
+    "NE": Nebraska
+    "NV": Nevada
+    "NH": New Hampshire
+    "NJ": New Jersey
+    "NM": New Mexico
+    "NY": New York
+    "NC": North Carolina
+    "ND": North Dakota
+    "OH": Ohio
+    "OK": Oklahoma
+    "OR": Oregon
+    "PA": Pennsylvania
+    "PR": "Puerto Rico"
+    "PW": "Palau"
+    "RI": Rhode Island
+    "SC": South Carolina
+    "SD": South Dakota
+    "TN": Tennessee
+    "TX": Texas
+    "UT": Utah
+    "VT": Vermont
+    "VA": Virginia
+    "WA": Washington
+    "WV": West Virginia
+    "WI": Wisconsin
+    "WY": Wyoming
 en:
-  AT:
+  "AT":
     'AT-1': "Burgenland"
     'AT-2': "Carinthia"
     'AT-3': "Lower Austria"
@@ -479,65 +479,65 @@ en:
     'AT-7': "Tyrol"
     'AT-8': "Vorarlberg"
     'AT-9': "Vienna"
-  CA:
-    AB: "Alberta"
-    BC: "British Columbia"
-    MB: "Manitoba"
-    NB: "New Brunswick"
-    NL: "Newfoundland"
-    NS: "Nova Scotia"
-    NU: "Nunavut"
-    ON: "Ontario"
-    PE: "Prince Edward Island"
-    QC: "Quebec"
-    SK: "Saskatchewan"
-    NT: "Northwest Territories"
-    YT: "Yukon Territory"
-  CH:
-    AG: "Aargau"
-    AR: "Ausser-Rhoden"
-    BL: "Basel-Landschaft"
-    BS: "Basel-Stadt"
-    BE: "Bern"
-    FR: "Fribourg"
-    GE: "Geneve"
-    GL: "Glarus"
-    GR: "Graubunden"
-    AI: "Inner-Rhoden"
-    LU: "Luzern"
-    NE: "Neuchatel"
-    NW: "Nidwalden"
-    OW: "Obwalden"
-    SG: "Sankt Gallen"
-    SH: "Schaffhausen"
-    SZ: "Schwyz"
-    SO: "Solothurn"
-    TG: "Thurgau"
-    TI: "Ticino"
-    UR: "Uri"
-    VS: "Valais"
-    VD: "Vaud"
-    ZG: "Zug"
-    ZH: "Zurich"
-    JU: "Jura"
-  DE:
-    BW: Baden-Württemberg
-    BY: Bavaria
-    BE: Berlin
-    BR: Brandenburg
-    HB: Bremen
-    HH: Hamburg
-    HE: Hesse
-    MV: Mecklenburg-Vorpommern
-    NI: Lower Saxony
-    NW: North Rhine-Westphalia
-    RP: Rhineland-Palatinate
-    SL: Saarland
-    SN: Saxony
-    ST: Saxony-Anhalt
-    SH: Schleswig-Holstein
-    TH: Thuringa
-  FR:
+  "CA":
+    "AB": "Alberta"
+    "BC": "British Columbia"
+    "MB": "Manitoba"
+    "NB": "New Brunswick"
+    "NL": "Newfoundland"
+    "NS": "Nova Scotia"
+    "NU": "Nunavut"
+    "ON": "Ontario"
+    "PE": "Prince Edward Island"
+    "QC": "Quebec"
+    "SK": "Saskatchewan"
+    "NT": "Northwest Territories"
+    "YT": "Yukon Territory"
+  "CH":
+    "AG": "Aargau"
+    "AR": "Ausser-Rhoden"
+    "BL": "Basel-Landschaft"
+    "BS": "Basel-Stadt"
+    "BE": "Bern"
+    "FR": "Fribourg"
+    "GE": "Geneve"
+    "GL": "Glarus"
+    "GR": "Graubunden"
+    "AI": "Inner-Rhoden"
+    "LU": "Luzern"
+    "NE": "Neuchatel"
+    "NW": "Nidwalden"
+    "OW": "Obwalden"
+    "SG": "Sankt Gallen"
+    "SH": "Schaffhausen"
+    "SZ": "Schwyz"
+    "SO": "Solothurn"
+    "TG": "Thurgau"
+    "TI": "Ticino"
+    "UR": "Uri"
+    "VS": "Valais"
+    "VD": "Vaud"
+    "ZG": "Zug"
+    "ZH": "Zurich"
+    "JU": "Jura"
+  "DE":
+    "BW": Baden-Württemberg
+    "BY": Bavaria
+    "BE": Berlin
+    "BR": Brandenburg
+    "HB": Bremen
+    "HH": Hamburg
+    "HE": Hesse
+    "MV": Mecklenburg-Vorpommern
+    "NI": Lower Saxony
+    "NW": North Rhine-Westphalia
+    "RP": Rhineland-Palatinate
+    "SL": Saarland
+    "SN": Saxony
+    "ST": Saxony-Anhalt
+    "SH": Schleswig-Holstein
+    "TH": Thuringa
+  "FR":
     'FR-01': "Ain"
     'FR-02': "Aisne"
     'FR-03': "Allier"
@@ -634,308 +634,308 @@ en:
     'FR-88': "Vosges"
     'FR-89': "Yonne"
     'FR-78': "Yvelines"
-  GB:
-    BDG: "Barking and Dagenham"
-    BNE: "Barnet"
-    BNS: "Barnsley"
-    BAS: "Bath and North East Somerset"
-    BDF: "Bedfordshire"
-    BEX: "Bexley"
-    BIR: "Birmingham"
-    BBD: "Blackburn with Darwen"
-    BPL: "Blackpool"
-    BOL: "Bolton"
-    BMH: "Bournemouth"
-    BRC: "Bracknell Forest"
-    BRD: "Bradford"
-    BEN: "Brent"
-    BNH: "Brighton and Hove"
-    BST: "Bristol, City of"
-    BRY: "Bromley"
-    BKM: "Buckinghamshire"
-    BUR: "Bury"
-    CLD: "Calderdale"
-    CAM: "Cambridgeshire"
-    CMD: "Camden"
-    CHS: "Cheshire"
-    CON: "Cornwall"
-    COV: "Coventry"
-    CRY: "Croydon"
-    CMA: "Cumbria"
-    DAL: "Darlington"
-    DER: "Derby"
-    DBY: "Derbyshire"
-    DEV: "Devon"
-    DNC: "Doncaster"
-    DOR: "Dorset"
-    DUD: "Dudley"
-    DUR: "Durham"
-    EAL: "Ealing"
-    ERY: "East Riding of Yorkshire"
-    ESX: "East Sussex"
-    ENF: "Enfield"
-    ESS: "Essex"
-    GAT: "Gateshead"
-    GLS: "Gloucestershire"
-    GRE: "Greenwich"
-    HCK: "Hackney"
-    HAL: "Halton"
-    HMF: "Hammersmith and Fulham"
-    HAM: "Hampshire"
-    HRY: "Haringey"
-    HRW: "Harrow"
-    HPL: "Hartlepool"
-    HAV: "Havering"
-    HEF: "Herefordshire"
-    HRT: "Hertfordshire"
-    HIL: "Hillingdon"
-    HNS: "Hounslow"
-    IOW: "Isle of Wight"
-    IOS: "Isle of Scilly"
-    ISL: "Islington"
-    KEC: "Kensington and Chelsea"
-    KEN: "Kent"
-    KHL: "Kingston upon Hull, City of"
-    KTT: "Kingston upon Thames"
-    KIR: "Kirklees"
-    KWL: "Knowsley"
-    LBH: "Lambeth"
-    LAN: "Lancashire"
-    LDS: "Leeds"
-    LCE: "Leicester"
-    LEC: "Leicestershire"
-    LEW: "Lewisham"
-    LIN: "Lincolnshire"
-    LIV: "Liverpool"
-    LND: "London, City of"
-    LUT: "Luton"
-    MAN: "Manchester"
-    MDW: "Medway"
-    MRT: "Merton"
-    MDB: "Middlesbrough"
-    MIK: "Milton Keynes"
-    NET: "Newcastle upon Tyne"
-    NWM: "Newham"
-    NFK: "Norfolk"
-    NTH: "Northamptonshire"
-    NEL: "North East Lincolnshire"
-    NLN: "North Lincolnshire"
-    NSM: "North Somerset"
-    NTY: "North Tyneside"
-    NBL: "Northumberland"
-    NYK: "North Yorkshire"
-    NGM: "Nottingham"
-    NTT: "Nottinghamshire"
-    OLD: "Oldham"
-    OXF: "Oxfordshire"
-    PTE: "Peterborough"
-    PLY: "Plymouth"
-    POL: "Poole"
-    POR: "Portsmouth"
-    RDG: "Reading"
-    RDB: "Redbridge"
-    RCC: "Redcar and Cleveland"
-    RIC: "Richmond upon Thames"
-    RCH: "Rochdale"
-    ROT: "Rotherham"
-    RUT: "Rutland"
-    SHN: "St. Helens"
-    SLF: "Salford"
-    SHR: "Shropshire"
-    SAW: "Sandwell"
-    SFT: "Sefton"
-    SHF: "Sheffield"
-    SLG: "Slough"
-    SOL: "Solihull"
-    SOM: "Somerset"
-    STH: "Southampton"
-    SOS: "Southend-on-Sea"
-    SGC: "South Gloucestershire"
-    STY: "South Tyneside"
-    SWK: "Southwark"
-    STS: "Staffordshire"
-    SKP: "Stockport"
-    STT: "Stockton-on-Tees"
-    STE: "Stoke-on-Trent"
-    SFK: "Suffolk"
-    SND: "Sunderland"
-    SRY: "Surrey"
-    STN: "Sutton"
-    SWD: "Swindon"
-    TAM: "Tameside"
-    TFW: "Telford and Wrekin"
-    THR: "Thurrock"
-    TOB: "Torbay"
-    TWH: "Tower Hamlets"
-    TRF: "Trafford"
-    WKF: "Wakefield"
-    WLL: "Walsall"
-    WFT: "Waltham Forest"
-    WND: "Wandsworth"
-    WRT: "Warrington"
-    WAR: "Warwickshire"
-    WBK: "West Berkshire"
-    WSM: "Westminster"
-    WSX: "West Sussex"
-    WGN: "Wigan"
-    WIL: "Wiltshire"
-    WNM: "Windsor and Maidenhead"
-    WRL: "Wirral"
-    WOK: "Wokingham"
-    WLV: "Wolverhampton"
-    WOR: "Worcestershire"
-    YOR: "York"
-    ANT: "Antrim"
-    ARD: "Ards"
-    ARM: "Armagh"
-    BLA: "Ballymena"
-    BLY: "Ballymoney"
-    BNB: "Banbridge"
-    BFS: "Belfast"
-    CKF: "Carrickfergus"
-    CSR: "Castlereagh"
-    CLR: "Coleraine"
-    CKT: "Cookstown"
-    CGV: "Craigavon"
-    DRY: "Derry"
-    DOW: "Down"
-    DGN: "Dungannon and South Tyrone"
-    FER: "Fermanagh"
-    LRN: "Larne"
-    LMV: "Limavady"
-    LSB: "Lisburn"
-    MFT: "Magherafelt"
-    MYL: "Moyle"
-    NYM: "Newry and Mourne"
-    NTA: "Newtownabbey"
-    NDN: "North Down"
-    OMH: "Omagh"
-    STB: "Strabane"
-    ABE: "Aberdeen City"
-    ABD: "Aberdeenshire"
-    ANS: "Angus"
-    AGB: "Argyll and Bute"
-    SCB: "Scottish Borders, The"
-    CLK: "Clackmannanshire"
-    DGY: "Dumfries and Galloway"
-    DND: "Dundee"
-    EAY: "East Ayrshire"
-    EDU: "East Dunbartonshire"
-    ELN: "East Lothian"
-    ERW: "East Renfrewshire"
-    EDH: "Edinburgh"
-    ELS: "Eilean Siar"
-    FAL: "Falkirk"
-    FIF: "Fife"
-    GLG: "Glasgow"
-    HLD: "Highland"
-    IVC: "Inverclyde"
-    MLN: "Midlothian"
-    MRY: "Moray"
-    NAY: "North Ayrshire"
-    NLK: "North Lanarkshire"
-    ORK: "Orkney Islands"
-    PKN: "Perth and Kinross"
-    RFW: "Renfrewshire"
-    ZET: "Shetland Islands"
-    SAY: "South Ayrshire"
-    SLK: "South Lanarkshire"
-    STG: "Stirling"
-    WDU: "West Dunbartonshire"
-    WLN: "West Lothian"
-    AGY: "Isle of Anglesey"
-    BGW: "Blaenau Gwent"
-    BGE: "Bridgend"
-    CAY: "Caerphilly"
-    CRF: "Cardiff"
-    CGN: "Ceredigion"
-    CMN: "Carmarthenshire"
-    CWY: "Conwy"
-    DEN: "Denbighshire"
-    FLN: "Flintshire"
-    GWN: "Gwynedd"
-    MTY: "Merthyr Tydfil"
-    MON: "Monmouthshire"
-    NTL: "Neath Port Talbot"
-    NWP: "Newport"
-    PEM: "Pembrokeshire"
-    POW: "Powys"
-    RCT: "Rhondda Cynon Taff"
-    SWA: "Swansea"
-    TOF: "Torfaen"
-    VGL: "Vale of Glamorgan"
-    WRX: "Wrexham"
-  NL:
-    DR: Drenthe
-    FL: Flevoland
-    FR: Friesland
-    GE: Gelderland
-    GR: Groningen
-    LI: Limburg
-    NB: Noord-Brabant
-    NH: Noord-Holland
-    OV: Overijssel
-    ZH: Zuid-Holland
-    UT: Utrecht
-    ZE: Zeeland
-  US:
-    AA: Armed Forces Americas
-    AE: "Armed Forces Europe, Middle East, & Canada"
-    AK: Alaska
-    AL: Alabama
-    AZ: Arizona
-    AR: Arkansas
-    CA: California
-    CO: Colorado
-    CT: Conneticut
-    DE: Delaware
-    DC: District of Columbia
-    FL: Florida
-    FM: "Federated States of Micronesia"
-    GA: Georgia
-    GU: "Guam"
-    HI: Hawaii
-    ID: Idaho
-    IL: Illinois
-    IN: Indiana
-    IA: Iowa
-    KS: Kansas
-    KY: Kentucky
-    LA: Louisiana
-    ME: Maine
-    MH: "Marshall Islands"
-    MD: Maryland
-    MA: Massachusetts
-    MI: Michigan
-    MN: Minnesota
-    MS: Mississippi
-    MO: Missouri
-    MP: "Northern Mariana Islands"
-    MT: Montana
-    NE: Nebraska
-    NV: Nevada
-    NH: New Hampshire
-    NJ: New Jersey
-    NM: New Mexico
-    NY: New York
-    NC: North Carolina
-    ND: North Dakota
-    OH: Ohio
-    OK: Oklahoma
-    OR: Oregon
-    PA: Pennsylvania
-    PR: "Puerto Rico"
-    PW: "Palau"
-    RI: Rhode Island
-    SC: South Carolina
-    SD: South Dakota
-    TN: Tennessee
-    TX: Texas
-    UT: Utah
-    VT: Vermont
-    VA: Virginia
-    WA: Washington
-    WV: West Virginia
-    WI: Wisconsin
-    WY: Wyoming
+  "GB":
+    "BDG": "Barking and Dagenham"
+    "BNE": "Barnet"
+    "BNS": "Barnsley"
+    "BAS": "Bath and North East Somerset"
+    "BDF": "Bedfordshire"
+    "BEX": "Bexley"
+    "BIR": "Birmingham"
+    "BBD": "Blackburn with Darwen"
+    "BPL": "Blackpool"
+    "BOL": "Bolton"
+    "BMH": "Bournemouth"
+    "BRC": "Bracknell Forest"
+    "BRD": "Bradford"
+    "BEN": "Brent"
+    "BNH": "Brighton and Hove"
+    "BST": "Bristol, City of"
+    "BRY": "Bromley"
+    "BKM": "Buckinghamshire"
+    "BUR": "Bury"
+    "CLD": "Calderdale"
+    "CAM": "Cambridgeshire"
+    "CMD": "Camden"
+    "CHS": "Cheshire"
+    "CON": "Cornwall"
+    "COV": "Coventry"
+    "CRY": "Croydon"
+    "CMA": "Cumbria"
+    "DAL": "Darlington"
+    "DER": "Derby"
+    "DBY": "Derbyshire"
+    "DEV": "Devon"
+    "DNC": "Doncaster"
+    "DOR": "Dorset"
+    "DUD": "Dudley"
+    "DUR": "Durham"
+    "EAL": "Ealing"
+    "ERY": "East Riding of Yorkshire"
+    "ESX": "East Sussex"
+    "ENF": "Enfield"
+    "ESS": "Essex"
+    "GAT": "Gateshead"
+    "GLS": "Gloucestershire"
+    "GRE": "Greenwich"
+    "HCK": "Hackney"
+    "HAL": "Halton"
+    "HMF": "Hammersmith and Fulham"
+    "HAM": "Hampshire"
+    "HRY": "Haringey"
+    "HRW": "Harrow"
+    "HPL": "Hartlepool"
+    "HAV": "Havering"
+    "HEF": "Herefordshire"
+    "HRT": "Hertfordshire"
+    "HIL": "Hillingdon"
+    "HNS": "Hounslow"
+    "IOW": "Isle of Wight"
+    "IOS": "Isle of Scilly"
+    "ISL": "Islington"
+    "KEC": "Kensington and Chelsea"
+    "KEN": "Kent"
+    "KHL": "Kingston upon Hull, City of"
+    "KTT": "Kingston upon Thames"
+    "KIR": "Kirklees"
+    "KWL": "Knowsley"
+    "LBH": "Lambeth"
+    "LAN": "Lancashire"
+    "LDS": "Leeds"
+    "LCE": "Leicester"
+    "LEC": "Leicestershire"
+    "LEW": "Lewisham"
+    "LIN": "Lincolnshire"
+    "LIV": "Liverpool"
+    "LND": "London, City of"
+    "LUT": "Luton"
+    "MAN": "Manchester"
+    "MDW": "Medway"
+    "MRT": "Merton"
+    "MDB": "Middlesbrough"
+    "MIK": "Milton Keynes"
+    "NET": "Newcastle upon Tyne"
+    "NWM": "Newham"
+    "NFK": "Norfolk"
+    "NTH": "Northamptonshire"
+    "NEL": "North East Lincolnshire"
+    "NLN": "North Lincolnshire"
+    "NSM": "North Somerset"
+    "NTY": "North Tyneside"
+    "NBL": "Northumberland"
+    "NYK": "North Yorkshire"
+    "NGM": "Nottingham"
+    "NTT": "Nottinghamshire"
+    "OLD": "Oldham"
+    "OXF": "Oxfordshire"
+    "PTE": "Peterborough"
+    "PLY": "Plymouth"
+    "POL": "Poole"
+    "POR": "Portsmouth"
+    "RDG": "Reading"
+    "RDB": "Redbridge"
+    "RCC": "Redcar and Cleveland"
+    "RIC": "Richmond upon Thames"
+    "RCH": "Rochdale"
+    "ROT": "Rotherham"
+    "RUT": "Rutland"
+    "SHN": "St. Helens"
+    "SLF": "Salford"
+    "SHR": "Shropshire"
+    "SAW": "Sandwell"
+    "SFT": "Sefton"
+    "SHF": "Sheffield"
+    "SLG": "Slough"
+    "SOL": "Solihull"
+    "SOM": "Somerset"
+    "STH": "Southampton"
+    "SOS": "Southend-on-Sea"
+    "SGC": "South Gloucestershire"
+    "STY": "South Tyneside"
+    "SWK": "Southwark"
+    "STS": "Staffordshire"
+    "SKP": "Stockport"
+    "STT": "Stockton-on-Tees"
+    "STE": "Stoke-on-Trent"
+    "SFK": "Suffolk"
+    "SND": "Sunderland"
+    "SRY": "Surrey"
+    "STN": "Sutton"
+    "SWD": "Swindon"
+    "TAM": "Tameside"
+    "TFW": "Telford and Wrekin"
+    "THR": "Thurrock"
+    "TOB": "Torbay"
+    "TWH": "Tower Hamlets"
+    "TRF": "Trafford"
+    "WKF": "Wakefield"
+    "WLL": "Walsall"
+    "WFT": "Waltham Forest"
+    "WND": "Wandsworth"
+    "WRT": "Warrington"
+    "WAR": "Warwickshire"
+    "WBK": "West Berkshire"
+    "WSM": "Westminster"
+    "WSX": "West Sussex"
+    "WGN": "Wigan"
+    "WIL": "Wiltshire"
+    "WNM": "Windsor and Maidenhead"
+    "WRL": "Wirral"
+    "WOK": "Wokingham"
+    "WLV": "Wolverhampton"
+    "WOR": "Worcestershire"
+    "YOR": "York"
+    "ANT": "Antrim"
+    "ARD": "Ards"
+    "ARM": "Armagh"
+    "BLA": "Ballymena"
+    "BLY": "Ballymoney"
+    "BNB": "Banbridge"
+    "BFS": "Belfast"
+    "CKF": "Carrickfergus"
+    "CSR": "Castlereagh"
+    "CLR": "Coleraine"
+    "CKT": "Cookstown"
+    "CGV": "Craigavon"
+    "DRY": "Derry"
+    "DOW": "Down"
+    "DGN": "Dungannon and South Tyrone"
+    "FER": "Fermanagh"
+    "LRN": "Larne"
+    "LMV": "Limavady"
+    "LSB": "Lisburn"
+    "MFT": "Magherafelt"
+    "MYL": "Moyle"
+    "NYM": "Newry and Mourne"
+    "NTA": "Newtownabbey"
+    "NDN": "North Down"
+    "OMH": "Omagh"
+    "STB": "Strabane"
+    "ABE": "Aberdeen City"
+    "ABD": "Aberdeenshire"
+    "ANS": "Angus"
+    "AGB": "Argyll and Bute"
+    "SCB": "Scottish Borders, The"
+    "CLK": "Clackmannanshire"
+    "DGY": "Dumfries and Galloway"
+    "DND": "Dundee"
+    "EAY": "East Ayrshire"
+    "EDU": "East Dunbartonshire"
+    "ELN": "East Lothian"
+    "ERW": "East Renfrewshire"
+    "EDH": "Edinburgh"
+    "ELS": "Eilean Siar"
+    "FAL": "Falkirk"
+    "FIF": "Fife"
+    "GLG": "Glasgow"
+    "HLD": "Highland"
+    "IVC": "Inverclyde"
+    "MLN": "Midlothian"
+    "MRY": "Moray"
+    "NAY": "North Ayrshire"
+    "NLK": "North Lanarkshire"
+    "ORK": "Orkney Islands"
+    "PKN": "Perth and Kinross"
+    "RFW": "Renfrewshire"
+    "ZET": "Shetland Islands"
+    "SAY": "South Ayrshire"
+    "SLK": "South Lanarkshire"
+    "STG": "Stirling"
+    "WDU": "West Dunbartonshire"
+    "WLN": "West Lothian"
+    "AGY": "Isle of Anglesey"
+    "BGW": "Blaenau Gwent"
+    "BGE": "Bridgend"
+    "CAY": "Caerphilly"
+    "CRF": "Cardiff"
+    "CGN": "Ceredigion"
+    "CMN": "Carmarthenshire"
+    "CWY": "Conwy"
+    "DEN": "Denbighshire"
+    "FLN": "Flintshire"
+    "GWN": "Gwynedd"
+    "MTY": "Merthyr Tydfil"
+    "MON": "Monmouthshire"
+    "NTL": "Neath Port Talbot"
+    "NWP": "Newport"
+    "PEM": "Pembrokeshire"
+    "POW": "Powys"
+    "RCT": "Rhondda Cynon Taff"
+    "SWA": "Swansea"
+    "TOF": "Torfaen"
+    "VGL": "Vale of Glamorgan"
+    "WRX": "Wrexham"
+  "NL":
+    "DR": Drenthe
+    "FL": Flevoland
+    "FR": Friesland
+    "GE": Gelderland
+    "GR": Groningen
+    "LI": Limburg
+    "NB": Noord-Brabant
+    "NH": Noord-Holland
+    "OV": Overijssel
+    "ZH": Zuid-Holland
+    "UT": Utrecht
+    "ZE": Zeeland
+  "US":
+    "AA": Armed Forces Americas
+    "AE": "Armed Forces Europe, Middle East, & Canada"
+    "AK": Alaska
+    "AL": Alabama
+    "AZ": Arizona
+    "AR": Arkansas
+    "CA": California
+    "CO": Colorado
+    "CT": Conneticut
+    "DE": Delaware
+    "DC": District of Columbia
+    "FL": Florida
+    "FM": "Federated States of Micronesia"
+    "GA": Georgia
+    "GU": "Guam"
+    "HI": Hawaii
+    "ID": Idaho
+    "IL": Illinois
+    "IN": Indiana
+    "IA": Iowa
+    "KS": Kansas
+    "KY": Kentucky
+    "LA": Louisiana
+    "ME": Maine
+    "MH": "Marshall Islands"
+    "MD": Maryland
+    "MA": Massachusetts
+    "MI": Michigan
+    "MN": Minnesota
+    "MS": Mississippi
+    "MO": Missouri
+    "MP": "Northern Mariana Islands"
+    "MT": Montana
+    "NE": Nebraska
+    "NV": Nevada
+    "NH": New Hampshire
+    "NJ": New Jersey
+    "NM": New Mexico
+    "NY": New York
+    "NC": North Carolina
+    "ND": North Dakota
+    "OH": Ohio
+    "OK": Oklahoma
+    "OR": Oregon
+    "PA": Pennsylvania
+    "PR": "Puerto Rico"
+    "PW": "Palau"
+    "RI": Rhode Island
+    "SC": South Carolina
+    "SD": South Dakota
+    "TN": Tennessee
+    "TX": Texas
+    "UT": Utah
+    "VT": Vermont
+    "VA": Virginia
+    "WA": Washington
+    "WV": West Virginia
+    "WI": Wisconsin
+    "WY": Wyoming
 

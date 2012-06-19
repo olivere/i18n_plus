@@ -1,3 +1,12 @@
+# 0.1.5, release 2012-06-19
+
+* Fixed NOrway as a language
+
+# 0.1.4, release 2012-06-04
+
+* HTML safe output
+* Fixed NOrway as a country
+
 # 0.1.3, release 2011-10-11
 
 * Data files were missing
