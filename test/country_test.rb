@@ -41,31 +41,56 @@ class CountryTest < ActiveSupport::TestCase
 
   test "should return country options for German" do
     I18n.locale = :de
-    match = /<option value="DE" selected="selected">Deutschland<\/option>/
+
+    if ActiveSupport::VERSION::STRING < '4.0'
+      match = /<option value="DE" selected="selected">Deutschland<\/option>/
+    else
+      match = /<option selected="selected" value="DE">Deutschland<\/option>/
+    end
     assert_match match, country_options_for_select('DE').gsub(/\n/, '')
   end
 
   test "should return country options for English" do
     I18n.locale = :en
-    match = /<option value="DE" selected="selected">Germany<\/option>/
+
+    if ActiveSupport::VERSION::STRING < '4.0'
+      match = /<option value="DE" selected="selected">Germany<\/option>/
+    else
+      match = /<option selected="selected" value="DE">Germany<\/option>/
+    end
     assert_match match, country_options_for_select('DE').gsub(/\n/, '')
   end
 
   test "should return country options with priority countries for English" do
     I18n.locale = :en
-    match = /<option value="DE" selected="selected">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
+
+    if ActiveSupport::VERSION::STRING < '4.0'
+      match = /<option value="DE" selected="selected">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
+    else
+      match = /<option selected="selected" value="DE">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
+    end
     assert_match match, country_options_for_select('DE', 'DE').gsub(/\n/, '')
   end
 
   test "should return country options with multiple priority countries for English" do
     I18n.locale = :en
-    match = /<option value="DE" selected="selected">Germany<\/option><option value=\"GB\">United Kingdom<\/option><option value="" disabled="disabled">----------<\/option>/
+
+    if ActiveSupport::VERSION::STRING < '4.0'
+      match = /<option value="DE" selected="selected">Germany<\/option><option value=\"GB\">United Kingdom<\/option><option value="" disabled="disabled">----------<\/option>/
+    else
+      match = /<option selected="selected" value="DE">Germany<\/option><option value=\"GB\">United Kingdom<\/option><option value="" disabled="disabled">----------<\/option>/
+    end
     assert_match match, country_options_for_select('DE', 'DE', 'GB').gsub(/\n/, '')
   end
 
   test "should return country_select" do
     I18n.locale = :en
-    match = /<select id="account_country" name="account\[country\]"><option value="DE" selected="selected">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
+
+    if ActiveSupport::VERSION::STRING < '4.0'
+      match = /<select id="account_country" name="account\[country\]"><option value="DE" selected="selected">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
+    else
+      match = /<select id="account_country" name="account\[country\]"><option selected="selected" value="DE">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
+    end
     assert_match match, country_select(@account, :country, 'DE').gsub(/\n/, '')
   end
 

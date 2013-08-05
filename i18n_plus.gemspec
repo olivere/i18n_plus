@@ -17,14 +17,20 @@ Gem::Specification.new do |s|
   s.summary = s.description
   s.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.files = `git ls-files -- {bin,lib,spec,data}/*`.split("\n") + extra_rdoc_files
-  s.test_files = `git ls-files -- {spec}/*`.split("\n")
+  s.test_files = `git ls-files -- test/*_test.rb`.split("\n")
 
   s.add_dependency 'rack', ['>= 1.1.0', '< 2']
-  s.add_dependency 'activesupport', '>= 3.0.0'
-  s.add_dependency 'actionpack', '>= 3.0.0'
-  s.add_development_dependency("bundler", "~> 1.0")
-  s.add_development_dependency("rdoc", "~> 2.5")
-  s.add_development_dependency("rake", ">= 0.9")
-  s.add_development_dependency("mocha", ">= 0.11.4")
+  if RUBY_VERSION < '1.9.3'
+    s.add_dependency 'activesupport', '~> 3.2.13'
+    s.add_dependency 'actionpack', '~> 3.2.13'
+  else
+    s.add_dependency 'activesupport'
+    s.add_dependency 'actionpack'
+  end
+  s.add_development_dependency("bundler", "~> 1.3.5")
+  s.add_development_dependency("rdoc", "~> 2.5.3")
+  s.add_development_dependency("mocha", ">= 0.14.0")
+  s.add_development_dependency("rake")
+  s.add_development_dependency("minitest")
 end
 

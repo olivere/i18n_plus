@@ -19,7 +19,14 @@ module ActionView
   module Helpers
     module FormOptionsHelper
       def language_select(object, method, priority_language_codes = nil, options = {}, html_options = {})
-        InstanceTag.new(object, method, self, options.delete(:object)).to_language_select_tag(priority_language_codes, options, html_options)
+        tag = if defined?(ActionView::Helpers::InstanceTag) &&
+              ActionView::Helpers::InstanceTag.instance_method(:initialize).arity != 0
+          InstanceTag.new(object, method, self, options.delete(:object))
+        else
+          LanguageSelect.new(object, method, self, options)
+        end
+
+        tag.to_language_select_tag(priority_language_codes, options, html_options)
       end
 
       def language_options_for_select(selected = nil, *priority_language_codes)
@@ -36,13 +43,24 @@ module ActionView
       end
     end
 
-    class InstanceTag
+    module ToLanguageSelectTag
       def to_language_select_tag(priority_language_codes, options, html_options)
         html_options = html_options.stringify_keys
         add_default_name_and_id(html_options)
         value = value(object)
         opts = add_options(language_options_for_select(value, *priority_language_codes), options, value)
         content_tag(:select, opts, html_options)
+      end
+    end
+
+    if defined?(ActionView::Helpers::InstanceTag) &&
+        ActionView::Helpers::InstanceTag.instance_method(:initialize).arity != 0
+      class InstanceTag
+        include ToLanguageSelectTag
+      end
+    else
+      class LanguageSelect < Tags::Base
+        include ToLanguageSelectTag
       end
     end
 

@@ -1,3 +1,8 @@
+# 0.2.0, release 2013-08-06
+
+* Rails 4 updates
+* General gem updates, e.g. Mocha
+
 # 0.1.5, release 2012-06-19
 
 * Fixed NOrway as a language

@@ -19,7 +19,13 @@ module ActionView
   module Helpers
     module FormOptionsHelper
       def country_select(object, method, priority_country_codes = nil, options = {}, html_options = {})
-        InstanceTag.new(object, method, self, options.delete(:object)).to_country_select_tag(priority_country_codes, options, html_options)
+        tag = if defined?(ActionView::Helpers::InstanceTag) &&
+              ActionView::Helpers::InstanceTag.instance_method(:initialize).arity != 0
+          InstanceTag.new(object, method, self, options.delete(:object))
+        else
+          CountrySelect.new(object, method, self, options)
+        end
+        tag.to_country_select_tag(priority_country_codes, options, html_options)
       end
 
       def country_options_for_select(selected = nil, *priority_country_codes)
@@ -36,13 +42,24 @@ module ActionView
       end
     end
 
-    class InstanceTag
+    module ToCountrySelectTag
       def to_country_select_tag(priority_country_codes, options, html_options)
         html_options = html_options.stringify_keys
         add_default_name_and_id(html_options)
         value = value(object)
         opts = add_options(country_options_for_select(value, *priority_country_codes), options, value)
         content_tag(:select, opts, html_options)
+      end
+    end
+
+    if defined?(ActionView::Helpers::InstanceTag) &&
+        ActionView::Helpers::InstanceTag.instance_method(:initialize).arity != 0
+      class InstanceTag
+        include ToCountrySelectTag
+      end
+    else
+      class CountrySelect < Tags::Base
+        include ToCountrySelectTag
       end
     end
 

@@ -19,7 +19,13 @@ module ActionView
   module Helpers
     module FormOptionsHelper
       def state_select(object, method, country_code, options = {}, html_options = {})
-        InstanceTag.new(object, method, self, options.delete(:object)).to_state_select_tag(country_code, options, html_options)
+        tag = if defined?(ActionView::Helpers::InstanceTag) &&
+              ActionView::Helpers::InstanceTag.instance_method(:initialize).arity != 0
+          InstanceTag.new(object, method, self, options.delete(:object))
+        else
+          StateSelect.new(object, method, self, options)
+        end
+        tag.to_state_select_tag(country_code, options, html_options)
       end
 
       def state_options_for_select(country_code, selected = nil)
@@ -28,13 +34,24 @@ module ActionView
       end
     end
 
-    class InstanceTag
+    module ToStateSelectTag
       def to_state_select_tag(country_code, options, html_options)
         html_options = html_options.stringify_keys
         add_default_name_and_id(html_options)
         value = value(object)
         opts = add_options(state_options_for_select(country_code, value), options, value)
         content_tag(:select, opts, html_options)
+      end
+    end
+
+    if defined?(ActionView::Helpers::InstanceTag) &&
+        ActionView::Helpers::InstanceTag.instance_method(:initialize).arity != 0
+      class InstanceTag
+        include ToStateSelectTag
+      end
+    else
+      class StateSelect < Tags::Base
+        include ToStateSelectTag
       end
     end
 
