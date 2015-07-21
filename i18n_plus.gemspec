@@ -24,8 +24,8 @@ Gem::Specification.new do |s|
     s.add_dependency 'activesupport', '~> 3.2.13'
     s.add_dependency 'actionpack', '~> 3.2.13'
   else
-    s.add_dependency 'activesupport'
-    s.add_dependency 'actionpack'
+    s.add_dependency 'activesupport', '~> 4.1.0'
+    s.add_dependency 'actionpack', '~> 4.1.0'
   end
   s.add_development_dependency("bundler", "~> 1.10.5")
   s.add_development_dependency("rdoc", "~> 2.5.3")
