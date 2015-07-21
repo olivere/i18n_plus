@@ -1,3 +1,11 @@
+# 0.3.0, release 2015-07-21
+
+* Update gems.
+* Fix problem with json 1.7.7 being required.
+* Rails 4.1 enforces available locales. Turn it off for the tests.
+  See http://edgeguides.rubyonrails.org/4_1_release_notes.html and
+  search for I18n.enforce_available_locales.
+
 # 0.2.0, release 2013-08-06
 
 * Rails 4 updates

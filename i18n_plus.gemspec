@@ -27,9 +27,9 @@ Gem::Specification.new do |s|
     s.add_dependency 'activesupport'
     s.add_dependency 'actionpack'
   end
-  s.add_development_dependency("bundler", "~> 1.3.5")
+  s.add_development_dependency("bundler", "~> 1.10.5")
   s.add_development_dependency("rdoc", "~> 2.5.3")
-  s.add_development_dependency("mocha", ">= 0.14.0")
+  s.add_development_dependency("mocha", "~> 1.1.0")
   s.add_development_dependency("rake")
   s.add_development_dependency("minitest")
 end
