@@ -62,7 +62,7 @@ class LocaleTest < ActiveSupport::TestCase
     if ActiveSupport::VERSION::STRING < '4.0'
       match = /<select id="account_locale" name="account\[locale\]"><option value="de-DE" selected="selected">German \(Germany\)<\/option><option value="" disabled="disabled">----------<\/option>/
     else
-      match = /<select id="account_locale" name="account\[locale\]"><option selected="selected" value="de-DE">German \(Germany\)<\/option><option value="" disabled="disabled">----------<\/option>/
+      match = /<select name="account\[locale\]" id="account_locale"><option selected="selected" value="de-DE">German \(Germany\)<\/option><option value="" disabled="disabled">----------<\/option>/
     end
     assert_match match, locale_select(@account, :locale, 'de-DE').gsub(/\n/, '')
   end

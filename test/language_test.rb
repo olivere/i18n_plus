@@ -62,7 +62,7 @@ class LanguageTest < ActiveSupport::TestCase
     if ActiveSupport::VERSION::STRING < '4.0'
       match = /<select id="account_language" name="account\[language\]"><option value="DE" selected="selected">German<\/option><option value="" disabled="disabled">----------<\/option>/
     else
-      match = /<select id="account_language" name="account\[language\]"><option selected="selected" value="DE">German<\/option><option value="" disabled="disabled">----------<\/option>/
+      match = /<select name="account\[language\]" id="account_language"><option selected="selected" value="DE">German<\/option><option value="" disabled="disabled">----------<\/option>/
     end
     assert_match match, language_select(@account, :language, 'DE').gsub(/\n/, '')
   end

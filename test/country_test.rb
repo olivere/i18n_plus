@@ -89,7 +89,7 @@ class CountryTest < ActiveSupport::TestCase
     if ActiveSupport::VERSION::STRING < '4.0'
       match = /<select id="account_country" name="account\[country\]"><option value="DE" selected="selected">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
     else
-      match = /<select id="account_country" name="account\[country\]"><option selected="selected" value="DE">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
+      match = /<select name="account\[country\]" id="account_country"><option selected="selected" value="DE">Germany<\/option><option value="" disabled="disabled">----------<\/option>/
     end
     assert_match match, country_select(@account, :country, 'DE').gsub(/\n/, '')
   end

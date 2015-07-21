@@ -37,13 +37,12 @@ class StateTest < ActiveSupport::TestCase
     I18n.locale = :en
     assert_not_nil results = state_select(@account, :state, 'DE').gsub(/\n/, '')
 
-    assert_match /<select id="account_state" name="account\[state\]">/, results
-
     if ActiveSupport::VERSION::STRING < '4.0'
-      match = /<option value="BY" selected="selected">Bavaria<\/option>/
+      assert_match /<select id="account_state" name="account\[state\]">/, results
+      assert_match /<option value="BY" selected="selected">Bavaria<\/option>/, results
     else
-      match = /<option selected="selected" value="BY">Bavaria<\/option>/
+      assert_match /<select name="account\[state\]" id="account_state">/, results
+      assert_match /<option selected="selected" value="BY">Bavaria<\/option>/, results
     end
-    assert_match match, results
   end
 end

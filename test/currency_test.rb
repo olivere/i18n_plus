@@ -64,7 +64,7 @@ class CurrencyTest < ActiveSupport::TestCase
     if ActiveSupport::VERSION::STRING < '4.0'
       match = /<select id="account_currency" name="account\[currency\]"><option value="EUR" selected="selected">EUR \(€\)<\/option><option value="" disabled="disabled">----------<\/option>/
     else
-      match = /<select id="account_currency" name="account\[currency\]"><option selected="selected" value="EUR">EUR \(€\)<\/option><option value="" disabled="disabled">----------<\/option>/
+      match = /<select name="account\[currency\]" id="account_currency"><option selected="selected" value="EUR">EUR \(€\)<\/option><option value="" disabled="disabled">----------<\/option>/
     end
     assert_match match, currency_select(@account, :currency, 'EUR').gsub(/\n/, '')
   end
