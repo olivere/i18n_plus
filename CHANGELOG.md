@@ -1,3 +1,7 @@
+# 0.3.1, release 2015-07-21
+
+* Require Rails 4.2 at minimum
+
 # 0.3.0, release 2015-07-21
 
 * Update gems.
