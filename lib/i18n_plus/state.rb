@@ -6,7 +6,9 @@ module I18nPlus
 
   def self.states(country_code, *args)
     options = args.extract_options!
-    locale = (options[:locale] || I18n.locale || I18n.default_locale).to_s.downcase
+    locale = (options[:locale] || I18n.locale || I18n.default_locale || :en).to_s[0..1].downcase
+    # Fallback to English if we don't use English or German
+    locale = 'en' unless ['de', 'en'].include?(locale)
     STATES[locale][country_code.to_s.upcase]
   end
 

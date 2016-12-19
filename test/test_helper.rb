@@ -9,3 +9,5 @@ MiniTest.autorun
 
 # Do not enfore available locales
 I18n.enforce_available_locales = false
+
+ActiveSupport.test_order = :random

@@ -38,11 +38,11 @@ class StateTest < ActiveSupport::TestCase
     assert_not_nil results = state_select(@account, :state, 'DE').gsub(/\n/, '')
 
     if ActiveSupport::VERSION::STRING < '4.0'
-      assert_match /<select id="account_state" name="account\[state\]">/, results
-      assert_match /<option value="BY" selected="selected">Bavaria<\/option>/, results
+      assert_match(/<select id="account_state" name="account\[state\]">/, results)
+      assert_match(/<option value="BY" selected="selected">Bavaria<\/option>/, results)
     else
-      assert_match /<select name="account\[state\]" id="account_state">/, results
-      assert_match /<option selected="selected" value="BY">Bavaria<\/option>/, results
+      assert_match(/<select name="account\[state\]" id="account_state">/, results)
+      assert_match(/<option selected="selected" value="BY">Bavaria<\/option>/, results)
     end
   end
 end

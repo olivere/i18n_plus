@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
   s.homepage = 'http://github.com/olivere/i18n_plus'
   s.rdoc_options = ['--charset=UTF-8']
   s.require_paths = ['lib']
-  s.summary = s.description
+  s.summary = %q{Internally used for working with countries, currencies, and locales. Only supports English and German.}
+  s.license = "MIT"
   s.executables = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.files = `git ls-files -- {bin,lib,spec,data}/*`.split("\n") + extra_rdoc_files
   s.test_files = `git ls-files -- test/*_test.rb`.split("\n")
@@ -27,10 +28,10 @@ Gem::Specification.new do |s|
     s.add_dependency 'activesupport', ['>= 4.2.0', '< 5']
     s.add_dependency 'actionpack', ['>= 4.2.0', '< 5']
   end
-  s.add_development_dependency("bundler", "~> 1.10.5")
-  s.add_development_dependency("rdoc", "~> 2.5.3")
-  s.add_development_dependency("mocha", "~> 1.1.0")
-  s.add_development_dependency("rake")
-  s.add_development_dependency("minitest")
+  s.add_development_dependency("bundler", "~> 1.13")
+  s.add_development_dependency("rdoc", "~> 4.2")
+  s.add_development_dependency("mocha", "~> 1.1")
+  s.add_development_dependency("rake", "~> 12.0")
+  s.add_development_dependency("minitest", "~> 5.10")
 end
 
