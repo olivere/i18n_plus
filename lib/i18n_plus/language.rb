@@ -47,10 +47,12 @@ module ActionView
 
     module ToLanguageSelectTag
       def to_language_select_tag(priority_language_codes, options, html_options)
-        html_options = html_options.stringify_keys
+        options.symbolize_keys!
+        html_options.stringify_keys!
         add_default_name_and_id(html_options)
-        value = value(object)
-        opts = add_options(language_options_for_select(value, *priority_language_codes), options, value)
+        _, value = option_text_and_value(object)
+        selected_value = options.has_key?(:selected) ? options[:selected] : value
+        opts = add_options(language_options_for_select(selected_value, *priority_language_codes), options, value)
         content_tag(:select, opts, html_options)
       end
     end

@@ -31,17 +31,20 @@ module ActionView
       end
 
       def state_options_for_select(country_code, selected = nil)
-        all_states = I18nPlus.states(country_code).map { |code,name| [name, code] }.sort
-        options_for_select(all_states, selected)
+        collection = I18nPlus.states(country_code)
+        options = collection.map { |code,name| [name, code] }.sort
+        options_for_select(options, selected)
       end
     end
 
     module ToStateSelectTag
       def to_state_select_tag(country_code, options, html_options)
-        html_options = html_options.stringify_keys
+        options.symbolize_keys!
+        html_options.stringify_keys!
         add_default_name_and_id(html_options)
-        value = value(object)
-        opts = add_options(state_options_for_select(country_code, value), options, value)
+        _, value = option_text_and_value(object)
+        selected_value = options.has_key?(:selected) ? options[:selected] : value
+        opts = add_options(state_options_for_select(country_code, selected_value), options, value)
         content_tag(:select, opts, html_options)
       end
     end

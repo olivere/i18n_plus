@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
   s.executables      = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.test_files       = `git ls-files -- test/*_test.rb`.split("\n")
 
-  s.add_dependency 'rack', '~> 1.6'
-  s.add_dependency 'activesupport', ['>= 4.2.10', '< 5']
-  s.add_dependency 'actionpack', ['>= 4.2.10', '< 5']
+  s.add_dependency 'rack', '~> 2.0'
+  s.add_dependency 'activesupport', ['>= 5.2.2.1', '< 6']
+  s.add_dependency 'actionpack', ['>= 5.2.2.1', '< 6']
   s.add_development_dependency("bundler", "~> 1.16")
   s.add_development_dependency("rdoc", "~> 6.0")
   s.add_development_dependency("mocha", "~> 1.4")

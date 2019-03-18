@@ -1,3 +1,7 @@
+# 0.4.0, release 2019-03-18
+
+* Require Rails 5.2.2.1 at minimum
+
 # 0.3.1, release 2015-07-21
 
 * Require Rails 4.2 at minimum
