@@ -3,7 +3,8 @@ require 'bundler/setup'
 require 'minitest/autorun'
 require 'active_support'
 require 'action_view'
-require 'mocha/setup'
+require 'minitest/unit'
+require 'mocha/minitest'
 require 'i18n_plus'
 MiniTest.autorun
 
