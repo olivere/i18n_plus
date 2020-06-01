@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.test_files       = `git ls-files -- test/*_test.rb`.split("\n")
 
   s.add_dependency 'rack', '~> 2.2.2'
-  s.add_dependency 'activesupport', '>= 5.2.4.3'
-  s.add_dependency 'actionpack', '>= 5.2.4.3'
+  s.add_dependency 'activesupport', '~> 5.2', '>= 5.2.4.3'
+  s.add_dependency 'actionpack', '~> 5.2', '>= 5.2.4.3'
   s.add_development_dependency("bundler", "~> 1.17.3")
   s.add_development_dependency("rdoc", "~> 6.2.1")
   s.add_development_dependency("mocha", "~> 1.11.2")
