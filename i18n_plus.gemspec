@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables      = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.test_files       = `git ls-files -- test/*_test.rb`.split("\n")
 
-  s.add_dependency 'rack', '~> 2.2.2'
+  s.add_dependency 'rack', '~> 2.2.3'
   s.add_dependency 'activesupport', '~> 5.2', '>= 5.2.4.3'
   s.add_dependency 'actionpack', '~> 5.2', '>= 5.2.4.3'
   s.add_development_dependency("bundler", "~> 1.17.3")

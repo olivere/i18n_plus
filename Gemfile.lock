@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    i18n_plus (0.4.5)
+    i18n_plus (0.4.6)
       actionpack (~> 5.2, >= 5.2.4.3)
       activesupport (~> 5.2, >= 5.2.4.3)
-      rack (~> 2.2.2)
+      rack (~> 2.2.3)
 
 GEM
   remote: http://rubygems.org/
@@ -31,9 +31,9 @@ GEM
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     erubi (1.9.0)
-    i18n (1.8.2)
+    i18n (1.8.3)
       concurrent-ruby (~> 1.0)
-    loofah (2.5.0)
+    loofah (2.6.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mini_portile2 (2.4.0)
@@ -41,8 +41,8 @@ GEM
     mocha (1.11.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
-    power_assert (1.1.7)
-    rack (2.2.2)
+    power_assert (1.2.0)
+    rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails-dom-testing (2.0.3)
@@ -52,7 +52,7 @@ GEM
       loofah (~> 2.3)
     rake (13.0.1)
     rdoc (6.2.1)
-    test-unit (3.3.5)
+    test-unit (3.3.6)
       power_assert
     thread_safe (0.3.6)
     tzinfo (1.2.7)
