@@ -40,6 +40,8 @@ GEM
     mocha (1.11.2)
     nokogiri (1.11.3-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.3-x86_64-linux)
+      racc (~> 1.4)
     power_assert (2.0.0)
     racc (1.5.2)
     rack (2.2.3)
@@ -61,6 +63,7 @@ GEM
 PLATFORMS
   x86_64-darwin-19
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   bundler (~> 2.2.4)
