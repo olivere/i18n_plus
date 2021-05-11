@@ -1,3 +1,7 @@
+# 0.4.9, release 2021-05-11
+
+* Require Rails 5.2.4.6 at minimum
+
 # 0.4.0, release 2019-03-18
 
 * Require Rails 5.2.2.1 at minimum
@@ -45,4 +49,3 @@
 
 * Added a gemspec
 * Initial release on GitHub
-
