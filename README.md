@@ -1,5 +1,7 @@
 # I18nPlus
 
+[![Test](https://github.com/olivere/i18n_plus/actions/workflows/test.yml/badge.svg)](https://github.com/olivere/i18n_plus/actions/workflows/test.yml)
+
 ## Description
 
 Yet another library for internationalization. Contains helpers for
