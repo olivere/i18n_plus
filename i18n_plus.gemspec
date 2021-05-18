@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = extra_rdoc_files
   s.homepage         = 'http://github.com/olivere/i18n_plus'
   s.rdoc_options     = ['--charset=UTF-8']
+  s.required_ruby_version = '>= 2.6'
   s.require_paths    = ['lib']
   s.summary          = %q{Internally used for working with countries, currencies, and locales. Only supports English and German.}
   s.license          = "MIT"
@@ -19,11 +20,11 @@ Gem::Specification.new do |s|
   s.executables      = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.test_files       = `git ls-files -- test/*_test.rb`.split("\n")
 
-  s.add_dependency 'rack', '~> 2.2.3'
-  s.add_dependency 'activesupport', '~> 5.2', '>= 5.2.4.6'
-  s.add_dependency 'actionpack', '~> 5.2', '>= 5.2.4.6'
-  s.add_development_dependency("bundler", "~> 2.2.4")
-  s.add_development_dependency("rdoc", "~> 6.2.1")
-  s.add_development_dependency("mocha", "~> 1.11.2")
-  s.add_development_dependency("rake", "~> 13.0.1")
+  s.add_dependency 'rack', '~> 2.0', '>= 2.0.9'
+  s.add_dependency 'activesupport', '>= 5.2.4.6'
+  s.add_dependency 'actionpack', '>= 5.2.4.6'
+  s.add_development_dependency("bundler", "~> 2.2.17")
+  s.add_development_dependency("rdoc", "~> 6.3.1")
+  s.add_development_dependency("rake", "~> 13.0.3")
+  s.add_development_dependency("mocha", "~> 1.12.0")
 end
