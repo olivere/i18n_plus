@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.executables      = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.test_files       = `git ls-files -- test/*_test.rb`.split("\n")
 
-  s.add_dependency("nokogiri", "~> 1.11.4")
+  s.add_dependency("nokogiri", ">= 1.11.4", "< 1.13.0")
   s.add_dependency("rack", "~> 2.0", ">= 2.0.9")
   s.add_dependency("activesupport", ">= 5.2.4.6")
   s.add_dependency("actionpack", ">= 5.2.4.6")

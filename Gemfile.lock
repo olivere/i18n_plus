@@ -4,7 +4,7 @@ PATH
     i18n_plus (0.5.1)
       actionpack (>= 5.2.4.6)
       activesupport (>= 5.2.4.6)
-      nokogiri (~> 1.11.4)
+      nokogiri (>= 1.11.4, < 1.13.0)
       rack (~> 2.0, >= 2.0.9)
 
 GEM
@@ -40,9 +40,9 @@ GEM
       nokogiri (>= 1.5.9)
     minitest (5.14.4)
     mocha (1.12.0)
-    nokogiri (1.11.5-x86_64-darwin)
+    nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.11.5-x86_64-linux)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     power_assert (2.0.0)
     racc (1.5.2)
