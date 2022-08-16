@@ -5,7 +5,7 @@ PATH
       actionpack (~> 6.1.4.7, < 7.0)
       activesupport (~> 6.1.4.7, < 7.0)
       nokogiri (~> 1.13.8)
-      rack (~> 2.0, >= 2.0.9)
+      rack (~> 2.0, >= 2.2.4)
 
 GEM
   remote: http://rubygems.org/
